@@ -1,0 +1,8 @@
+D:\My\projectcode\UE\UE\bin\UE.dll
+D:\My\projectcode\UE\UE\bin\UE.pdb
+D:\My\projectcode\UE\UE\bin\UE.xml
+D:\My\projectcode\UE\UE\obj\Debug\UE.Resources.resources
+D:\My\projectcode\UE\UE\obj\Debug\UE.vbproj.GenerateResource.Cache
+D:\My\projectcode\UE\UE\obj\Debug\UE.dll
+D:\My\projectcode\UE\UE\obj\Debug\UE.xml
+D:\My\projectcode\UE\UE\obj\Debug\UE.pdb
