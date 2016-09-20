@@ -19,6 +19,13 @@ Public Class Handler1
                             regex = A2B(regex)
                             rzt = HandRequest(url, regex)
                         End If
+                    Case "UET"
+                        Dim sc As String = context.Request("Source")
+                        Dim regex As String = context.Request("Regex")
+                        If Not String.IsNullOrEmpty(sc) AndAlso Not String.IsNullOrEmpty(regex) Then
+                            regex = A2B(regex)
+                            rzt = UET(sc, regex)
+                        End If
                 End Select
             End If
         Catch ex As Exception
@@ -33,13 +40,24 @@ Public Class Handler1
         End Get
     End Property
 
-    Function HandRequest(url As String, regex As String) As String
+    Function HandRequest(ByVal url As String, regex As String) As String
         Try
-            Dim rzt As String = hhelper.Post(url)
+            Dim rzt As String = hhelper.GetHtml(url)
             Dim reg As Regex = New Regex(regex, RegexOptions.None)
 
             Dim match As Text.RegularExpressions.Match = reg.Match(rzt)
 
+            Return match.ToString
+        Catch ex As Exception
+            Return String.Empty
+        End Try
+    End Function
+
+
+    Function UET(ByVal source As String, ByVal regex As String) As String
+        Try
+            Dim reg As Regex = New Regex(regex, RegexOptions.None)
+            Dim match As Text.RegularExpressions.Match = reg.Match(source)
             Return match.ToString
         Catch ex As Exception
             Return String.Empty

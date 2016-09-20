@@ -39,12 +39,12 @@
     </style>
     <script type="text/javascript">
         $(function () {
-            $("#url,#regex").bind("change", function () {
+            $("#url,#regex").bind("blur", function () {
                 //var name = this.name;
                 //debugger;
                 var url = $("#url").val();
                 var regex = $("#regex").val();
-                alert($.base64.btoa(regex));
+                //alert($.base64.btoa(regex));
                 regex = $.base64.btoa(regex) 
                 if (url && regex) {
                     $.post("UEHandler.ashx?Action=UE", { URL: url, Regex: regex }, function (data) {

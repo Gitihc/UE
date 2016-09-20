@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <publishData>
-  <publishProfile publishUrl="D:\MyWeb\UE" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="配置文件1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
-    <file relUrl="bin/UE.pdb" publishTime="09/19/2016 11:07:20" />
-    <file relUrl="UEMain.aspx" publishTime="09/19/2016 11:09:07" />
-    <file relUrl="bin/UE.dll" publishTime="09/19/2016 11:07:20" />
-    <file relUrl="Web.config" publishTime="09/19/2016 11:10:13" />
+  <publishProfile publishUrl="D:\MyWeb\UE" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="配置文件1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="bin/UE.pdb" publishTime="09/20/2016 17:07:18" />
+    <file relUrl="UEMain.aspx" publishTime="09/20/2016 17:07:12" />
+    <file relUrl="bin/UE.dll" publishTime="09/20/2016 17:07:18" />
+    <file relUrl="Web.config" publishTime="09/20/2016 17:07:23" />
     <file relUrl="js/jquery.base64.js" publishTime="09/19/2016 10:44:07" />
     <file relUrl="js/jquery-1.4.1.js" publishTime="09/19/2016 09:47:53" />
     <file relUrl="UEHandler.ashx" publishTime="09/19/2016 09:58:22" />
-    <file relUrl="bin/UE.xml" publishTime="09/19/2016 11:07:20" />
+    <file relUrl="bin/UE.xml" publishTime="09/20/2016 17:07:18" />
   </publishProfile>
 </publishData>

@@ -3,7 +3,7 @@ Imports System.IO
 
 Public Class HttpHelper
 
-    Public Function Post(ByVal url As String) As String
+    Public Function GetHtml(ByVal url As String) As String
         Try
             Dim req As HttpWebRequest = HttpWebRequest.Create(url)
 
