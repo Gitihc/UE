@@ -54,9 +54,14 @@ Public Class Handler1
     End Function
 
 
-    Function UET(ByVal source As String, ByVal regex As String) As String
+    Function UET(ByVal source As String, ByVal sregex As String) As String
         Try
-            Dim reg As Regex = New Regex(regex, RegexOptions.None)
+            Dim reg As Regex = New Regex(sregex, RegexOptions.None)
+
+
+            Regex.Replace(source, "", "")
+            Regex.Split(source, "")
+
             Dim match As Text.RegularExpressions.Match = reg.Match(source)
             Return match.ToString
         Catch ex As Exception

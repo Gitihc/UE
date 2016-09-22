@@ -113,6 +113,16 @@
                         </div>
                         <div class="item">
                             <div class="title">
+                                Regex Type:</div>
+                            <input type="radio" name="type" style="vertical-align: middle;" />
+                            <label style="vertical-align: middle;">
+                                匹配</label>
+                            <input type="radio" name="type" style="vertical-align: middle;" />
+                            <label style="vertical-align: middle;">
+                                替换</label>
+                        </div>
+                        <div class="item">
+                            <div class="title">
                                 Result:</div>
                             <textarea id="srzt" name="srzt" style="height: 200px;"></textarea>
                         </div>
